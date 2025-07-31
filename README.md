@@ -1,22 +1,53 @@
-🎬 Cast Management System
-A full-stack web application designed to simplify and streamline the casting process in the film, television, and theatre industries. This system allows production teams to manage artist profiles, assign roles, schedule auditions, and oversee entire casting workflows from a centralized platform.
+# 🎬 Cast Management System
 
-🚀 Key Features
-🧑‍🎤 Artist Management – Register, update, and view detailed artist profiles
+A centralized web application for managing artists, roles, auditions, and production workflows within film, television, and theatre environments. Developed to help production houses streamline the entire casting lifecycle from registration to final selection.
 
-🎭 Role Assignment – Create roles and assign suitable artists based on criteria
+---
 
-📅 Audition Scheduling – Manage audition dates and availability of artists
+## 📖 Table of Contents
 
-🔍 Search & Filter – Easily locate artists or roles using flexible search options
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
 
-🛠️ Admin Dashboard – Manage all users, productions, roles, and system settings
+---
 
-📝 Activity Tracking – Maintain logs of system updates and casting decisions
+## 📌 Overview
 
-🛠️ Tech Stack
-Layer	Technology
-Frontend	React.js / Tailwind CSS
-Backend	Spring Boot / FastAPI
-Database	PostgreSQL / MongoDB
-Architecture	RESTful API, MVC Pattern
+The *Cast Management System* is designed to automate and simplify the casting process. It allows admin users to manage a database of artists, assign them to production roles, organize auditions, and track casting decisions — all within a single interface.
+
+---
+
+## 🌟 Features
+
+- 🧑‍🎤 Artist Registration and Profile Management  
+- 🎭 Role Creation and Role-to-Artist Assignment  
+- 📅 Audition Scheduling and Availability Tracking  
+- 🔍 Search and Filter Artists or Roles  
+- 🛠 Admin Dashboard for System Management  
+- 📄 Booking and Activity Logs
+
+---
+
+## 🧑‍💻 Tech Stack
+
+| Layer         | Technology                |
+|---------------|---------------------------|
+| Frontend      | React.js, Tailwind CSS    |
+| Backend       | Spring Boot / FastAPI     |
+| Database      | PostgreSQL / MongoDB      |
+| Architecture  | RESTful APIs, MVC Pattern |
+
+---
+
+## ⚙ Installation
+
+1. *Clone the repository*
+   ```bash
+   git clone https://github.com/<your-org-name>/cast-management-system.git
+   cd cast-management-system
